@@ -145,8 +145,7 @@
 //}
 
 section.screen {
-    &.active { 
-        
+    &.active {  
         opacity: 1;
         visibility: visible;
         pointer-events: all;
@@ -157,8 +156,16 @@ section.screen {
             opacity: 1; 
 
         }
+        .slider__item-text{
+//            opacity: 1;
+        }
+        .form__field{
+            transform: scale(1);
+        }
     }
+    
 }
+
 
 .intro__label {
     margin: 0 0 1.6rem;
